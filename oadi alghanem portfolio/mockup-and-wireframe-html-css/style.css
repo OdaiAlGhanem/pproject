@@ -1,0 +1,681 @@
+.maindiv {
+    background-image: url(image/background\ main.webp);
+    height: 850px;
+}
+
+.nav-link {
+    color: aliceblue;
+    font-size: large;
+    font-weight: bold;
+}
+
+.nav-item {
+    margin-right: 40px;
+}
+
+.nav-item :hover {
+    color: rgb(153, 146, 146);
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+   
+}
+
+.navbar-brand img {
+    height: 60px;
+    width: 80px;
+    margin-left: 40px;
+}
+
+h2 {
+    font-size: 70px;
+    color: #f5f6f8;
+}
+
+.navbar-toggler {
+    margin-right: 20px;
+    color: #fafefa;
+}
+
+
+/*--------------------------------------------*/
+.maindiv11 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.maindiv1 img {
+    height: 600px;
+}
+
+.maindiv2 {
+    margin-top: 150px;
+    text-align: left;
+    color: aliceblue;
+}
+
+.maindiv2 h1 {
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.maindiv2 h2 {
+    font-size: 30px;
+}
+
+.maindiv2 svg {
+    margin: 10px;
+}
+
+
+/*--------------------------------------------*/
+.secedu {
+    height: 1000px;
+}
+
+.secedu h2 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.secedu1 {
+    text-align: center;
+    width: 100%;
+    height: 740px;
+}
+
+.card1edu {
+
+    width: 100%;
+}
+
+.card1edu img {
+
+    width: 100%;
+
+}
+
+.card1edu {
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: #f5f6f8;
+    box-shadow: 0px 0px 18px black;
+}
+
+.cardedu {
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: #f5f6f8;
+    box-shadow: 0px 0px 18px black;
+}
+
+.secedu1-1 {
+    display: flex;
+    justify-content: space-around ;
+    font-size: 20PX;
+    margin-top: 100px;
+
+}
+
+.secedu1-2 ul {
+    text-decoration: none;
+}
+
+
+
+.card11
+{
+    background-color: #f5f6f8;
+    box-shadow: 0px 0px 18px black;
+   
+}
+.card22
+{
+    background-color: #f5f6f8;
+    box-shadow: 0px 0px 18px black;
+}
+
+.secedu1 h4 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/*--------------------------------------------*/
+.secskills {
+    width: 100%;
+    height: 780;
+
+}
+
+.secskills h2 {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.secskills h2 img {
+    height: 100px;
+}
+
+.secskills1 {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    height: 680px;
+    margin-bottom: 100px;
+
+}
+
+.secskills1 p {
+    font-weight: bold;
+    font-size: large;
+}
+
+.secskills1 hr {}
+
+.tecskills {
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: #f5f6f8;
+    box-shadow: 0px 0px 18px black;
+    margin-right: 30px;
+}
+
+.tecskills img {
+    height: 60px;
+    margin: 10PX;
+}
+
+.softskills {
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: #f5f6f8;
+    box-shadow: 0px 0px 18px black;
+}
+
+.softskills img {
+    height: 60px;
+    margin: 10PX;
+}
+
+/*--------------------------------------------*/
+.secexp {
+    width: 100%;
+    height: 900;
+    text-align: center;
+   
+}
+
+.secexp h2 {
+    text-align: center;
+}
+
+.secexp1 {
+    display: flex;
+    height: 630px;
+    background-color: #f5f6f8;
+    box-shadow: 0px 0px 18px black;
+    justify-content: space-around;
+}
+
+.secexp h2 img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.card {
+    width: 400px;
+    height: 600px;
+    justify-content: center;
+    margin: 15px;
+
+}
+
+.card img {
+    height: 300px;
+    width: 300px;
+}
+
+/*--------------------------------------------*/
+.secref {
+    width: 100%;
+    height: 980;
+    text-align: center;
+}
+
+.secref img {
+    height: 100px;
+}
+
+.secref1 {
+    text-align: center;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #f5f6f8;
+    box-shadow: 0px 0px 18px black;
+}
+
+.secref1 a {
+    text-decoration: none;
+    color: #0a0a0b;
+}
+
+.secref1 img {
+    height: 300px;
+    border-radius: 50px;
+    color: black;
+    margin-top: 20px;
+}
+
+.secfooter {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 200px;
+    background-image: url(image/background\ main.webp);
+
+}
+
+.secfootericon {
+    margin-top: 10px;
+    display: block;
+    color: #f5f6f8;
+    text-align: center;
+    font-size: xx-large;
+    height: 20px;
+    text-decoration: none;
+    justify-content: start;
+    margin-top: 50px;
+}
+
+.secfootericon a {
+    text-decoration: none;
+    color: #f5f6f8;
+}
+
+.list-unstyled {
+    text-decoration: none;
+}
+
+.footerlist {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.text-uppercase {
+    text-decoration: none;
+}
+
+.footerimg {
+    display: grid;
+    color: #f5f6f8;
+    text-align: center;
+
+}
+
+.footerloc {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: end;
+    color: #f5f6f8;
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+    .card1 {
+        height: 200px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .card img {
+        height: 400px;
+        width: 80%;
+    }
+
+    .decskills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .maindiv1 img {
+        height: 300px;
+
+    }
+
+    .maindiv {
+        height: 780px;
+    }
+
+    .secexp1 {
+        display: grid;
+        grid-template-columns: auto;
+        height: 2000px;
+        width: 100%;
+
+    }
+
+    .secref1 {
+        height: 1000px;
+    }
+
+    .secref div {
+
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .secref1 div {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+    .card1 {
+        height: 200px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .card img {
+        height: 400px;
+        width: 80%;
+    }
+
+    .decskills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .maindiv1 img {
+        height: 300px;
+
+    }
+
+    .secexp1 {
+        display: grid;
+        grid-template-columns: auto;
+        height: 2000px;
+        width: 100%;
+
+    }
+
+    .secref1 {
+        height: 1000px;
+    }
+
+    .secref div {
+
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .secref1 div {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 480px) {
+    .card1 {
+        height: 200px;
+    }
+
+    .secfooter {
+        display: grid;
+        grid-template-columns: auto auto;
+        height: 400px;
+        font-size: 10px;
+    }
+
+    .secfooter icon {
+        font-size: 10px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 0;
+        height: 400px;
+
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .card img {
+        height: 200px;
+        width: 80%;
+    }
+
+    .maindiv2 h1 {
+        font-size: 30px;
+    }
+
+    .maindiv2 h2 {
+        font-size: 20px;
+    }
+
+    .maindiv2 {
+        margin-top: 0;
+    }
+
+    .decskills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .maindiv1 img {
+        height: 300px;
+
+    }
+
+    .secedu1 {
+        grid-template-columns: auto;
+        font-size: small;
+    }
+
+    .maindiv11 {
+        grid-template-columns: auto;
+        margin-bottom: 90px;
+    }
+
+    .maindiv {
+        display: grid;
+        grid-template-columns: auto;
+        height: 700px;
+        justify-content: center;
+    }
+
+    .maindiv2 svg {}
+
+    .secfootericon {
+        margin: 0;
+    }
+
+    .secedu {
+        height: 1080px;
+    }
+
+    .secexp1 {
+        display: grid;
+        grid-template-columns: auto;
+        height: 1200px;
+        width: 100%;
+
+    }
+
+    .secedu1-2 img {
+        width: 100%;
+    }
+
+    .secref1 {
+        height: 2000px;
+    }
+
+    .secref div {
+
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .secref1 div {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    .navbar-brand img {
+        margin: 0px;
+
+    }
+
+    .navbar-toggler {
+        margin: 0;
+        margin-top: 20px;
+        color: #fafefa;
+    }
+.secedu1-1{
+    display: grid;
+    grid-template-columns: auto;
+    margin: 20px;
+}
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 680px) {
+
+    .card1 {
+        height: 200px;
+    }
+
+    .secfooter {
+        display: grid;
+        grid-template-columns: auto auto;
+        height: 400px;
+        font-size: 10px;
+    }
+
+    .secfooter icon {
+        font-size: 10px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 0;
+        height: 400px;
+
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .card img {
+        height: 200px;
+        width: 80%;
+    }
+
+    .maindiv2 h1 {
+        font-size: 30px;
+    }
+
+    .maindiv2 h2 {
+        font-size: 20px;
+    }
+
+    .maindiv2 {
+        margin-top: 0;
+    }
+
+    .decskills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .maindiv1 img {
+        height: 300px;
+
+    }
+
+    .secedu1 {
+        grid-template-columns: auto;
+        font-size: small;
+    }
+
+    .maindiv11 {
+        grid-template-columns: auto;
+        margin-bottom: 90px;
+    }
+
+    .maindiv {
+        display: grid;
+        grid-template-columns: auto;
+        height: 700px;
+        justify-content: center;
+    }
+
+    .maindiv2 svg {}
+
+    .secfootericon {
+        margin: 0;
+    }
+
+    .secedu {
+        height: 1080px;
+    }
+
+    .secexp1 {
+        display: grid;
+        grid-template-columns: auto;
+        height: 1200px;
+        width: 100%;
+
+    }
+
+    .secedu1-2 img {
+        width: 100%;
+    }
+
+    .secref1 {
+        height: 2000px;
+    }
+
+    .secref div {
+
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .secref1 div {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    .navbar-brand img {
+        margin: 0px;
+
+    }
+
+    .navbar-toggler {
+        margin: 0;
+        margin-top: 20px;
+        color: #fafefa;
+    }
+
+}
